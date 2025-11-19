@@ -1,0 +1,163 @@
+# Frontend Tools for News Aggregator
+1. HTML
+
+--> For structure
+
+--> Create layout, news cards, navbar, search bar
+
+2. CSS
+
+--> For design
+
+--> Flexbox, Grid, responsive UI
+
+3. JavaScript
+
+--> To fetch news from API
+
+--> To display news dynamically
+
+--> To update UI (search, filter)
+
+4. News API (Any One)
+
+--> NewsAPI
+
+--> GNews
+
+--> Mediastack
+
+--> RSS Feeds
+
+
+# Tools Needed (Frontend + Authentication)
+1. HTML
+
+--> Login form
+
+--> Signup form
+
+--> Input fields (email, password)
+
+2. CSS
+
+--> Form styling
+
+--> Error message styling
+
+--> Buttons, layout
+
+3. JavaScript
+
+--> Form validation
+
+--> Show/Hide password
+
+--> Send login/signup data to backend
+
+--> Store user session (token) in localStorage
+
+
+
+
+# Tools Needed for HISTORY Feature (Frontend Only)
+1. JavaScript LocalStorage
+- This is the simplest tool.
+- Used to save:
+
+--> which news the user clicked
+
+--> reading history
+
+--> last search
+
+
+2. JSON
+
+--> To store history data in structured format.
+
+3. DOM Manipulation
+
+--> To display history on a separate page:
+
+--> Show titles
+
+--> Show images
+
+--> Show links
+
+
+# Tools Needed for SEARCH ENGINE (Frontend)
+1. HTML
+--> Search input box
+--> Search button
+
+2. CSS
+--> Style search bar
+--> Responsive design
+
+3. JavaScript
+--> To make search work:
+--> input.value
+--> addEventListener("keyup")
+--> fetch() call with query
+--> Show results on screen
+
+
+4. API (News Search)
+
+- Your API must support search query:
+- Use any one:
+--> NewsAPI
+--> GNews
+--> Mediastack
+--> RSS feeds
+
+
+# Search Engine Enhancement Tools
+5. Debounce
+--> So API does not call on every key press.
+--> Used in JS:
+-setTimeout()
+-clearTimeout()
+
+6. Filtering
+--> You can add:
+--> category filter
+--> date filter
+--> source filter
+
+
+7. Sorting (Optional)
+-- Sort results by:
+--> newest
+--> oldest
+
+
+8. Pagination / Infinite Scroll
+--> To load more search results smoothly.
+
+# Delete History Feature
+
+1. HTML
+
+--> A “Delete History” button
+
+--> A separate history page or section
+
+2. CSS
+
+--> Styling for delete button
+
+--> Warning message style (optional)
+
+3. JavaScript DOM
+
+--> Show confirmation message
+
+--> Update UI when history is deleted
+
+
+
+
+
